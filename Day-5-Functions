@@ -1,0 +1,45 @@
+# Day 5 - Functions in Python
+
+# 1. Simple function
+def greet():
+    print("Hello Rashi")
+
+greet()
+
+
+# 2. Function with parameter
+def greet_name(name):
+    print("Hello", name)
+
+greet_name("Rashi")
+
+
+# 3. Function with return
+def add(a, b):
+    return a + b
+
+print(add(2, 3))
+
+
+# 4. Reverse string function
+def reverse_name(name):
+    return name[::-1]
+
+print(reverse_name("Rashi"))
+
+
+# 5. Even or Odd function
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+print(check_even_odd(4))
+
+
+# 6. Largest of 3 numbers
+def largest(a, b, c):
+    return max(a, b, c)
+
+print(largest(10, 25, 15))
